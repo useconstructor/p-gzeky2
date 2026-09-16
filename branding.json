@@ -1,0 +1,13 @@
+{
+  "primaryColor": "#FFFBF7",
+  "secondaryColor": "#F5F1ED",
+  "backgroundColor": "#FFFBF7",
+  "textColor": "#292724",
+  "accentColor": "#C4916F",
+  "fontHeading": "Cormorant Garamond",
+  "fontBody": "Inter",
+  "borderRadius": "0.5rem",
+  "logoText": "Morrow & Wick",
+  "logoImageUrl": "https://vabacntbfcwhgkjqajcw.supabase.co/storage/v1/object/public/screenshots/projects/P-GZEKY2/logo.png",
+  "tone": "premium"
+}

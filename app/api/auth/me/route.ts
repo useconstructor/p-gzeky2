@@ -1,0 +1,2 @@
+import { jwtVerify } from 'jose'; const SECRET=new TextEncoder().encode(process.env.JWT_SECRET??'dev-secret')
+export async function GET(req:Request){const t=req.headers.get('cookie')?.split(';').find(c=>c.trim().startsWith('session='))?.split('=')[1];if(!t)return Response.json({user:null});try{return Response.json({user:(await jwtVerify(t,SECRET)).payload})}catch{return Response.json({user:null})}}
